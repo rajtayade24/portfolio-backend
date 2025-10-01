@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-@CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500"})
+@CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500", "https://glistening-exploration-production.up.railway.app"})
 @RestController
 @RequiredArgsConstructor
 public class StudentController {
