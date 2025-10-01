@@ -7,8 +7,8 @@ toggleButton.addEventListener('click', () => {
     hamburger.classList.toggle('active');
 });
 //play videos
-let backgroundVideo1 = document.querySelector(".section1bgvideo")
-let backgroundVideo4 = document.querySelector(".section4bgvideo")
+let backgroundVideo1 = document.getElementById("section1bgvideo")
+let backgroundVideo4 = document.getElementById("section4bgvideo")
 backgroundVideo1.play();
 backgroundVideo4.play();
 backgroundVideo1.playbackRate = 0.2;
