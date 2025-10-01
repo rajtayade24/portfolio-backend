@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ribbon wave body -->
+  <path
+    d="M12 44
+       C20 30, 28 18, 40 16
+       C44 16, 52 20, 52 32
+       C52 38, 44 44, 38 44
+       C34 44, 28 40, 22 36"
+    stroke="white"
+    stroke-width="4"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Arrow tip -->
+  <path d="M48 28 L56 32 L48 36" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolo Website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+<header>
+    <nav class="nav">
+        <div class="logo">Developer</div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <div>
+            <ul class="nav-menu">
+                <li class="pointer"><a href="#home">Home</a></li>
+                <li class="pointer"><a href="#about">About</a></li>
+                <li class="pointer"><a href="#skills">Skills</a></li>
+                <li class="pointer"><a href="#projects">Projects</a></li>
+                <li class="pointer"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="first-section b-v-section" id="home">
+        <video class="background-videos section1bgvideo" src="videos/section1bg.mp4" muted loop></video>
+        <span class="down-arrow-btn">
+                <i class="fa-solid fa-arrow-down"></i>
+            </span>
+        <div class="first-section-content">
+            <h1><span class="creative">Creative</span> <span class="developer">Developer</span></h1>
+            <p class="lead">Crafting beautiful digital experiences with code, creativity, and passion. Let's build
+                something
+                amazing
+                together.</p>
+            <div class="btn-group">
+                <a href="#" class="btn primary">View My Work</a>
+                <a href="#" class="btn secondary">Download CV</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/rajtayade24"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/raj-tayade-68a800328/"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:rajtayade2492006@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-section" id="about">
+        <h2>About <span class="highlight">Me</span></h2>
+        <div class="second-section-content">
+            <div class="lead">Hii.. I'm a <span id="element"></span></div>
+
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: [' passionate Full stack web develooper with AI.'],
+                    typeSpeed: 50,
+                });
+            </script>
+            <div class="section-cont">
+                <div class="about-items">
+                    <div class="left">
+                        <img src="images/developer.gif" alt="">
+                    </div>
+                    <div class="right">
+                        <p>My name is Raj Tayade, and I am a Full-Stack Web Developer with experience in building
+                            modern, scalable, and user-friendly digital solutions. With a solid understanding of web
+                            technologies and a keen interest in Machine Learning, I combine creativity with
+                            technical expertise to craft applications that are both functional and visually
+                            appealing.
+                        </p>
+                        <p>I am deeply passionate about technology, problem-solving, and innovation, and I enjoy
+                            turning ideas into impactful digital experiences. Outside of development, I actively
+                            explore new tools and frameworks, contribute to open-source communities, and share
+                            insights with fellow developers to foster learning and collaboration.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="icon purple">&lt;&gt;</div>
+                    <h3>Clean Code</h3>
+                    <p>Writing maintainable, scalable code that stands the test of time.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon pink">🎨</div>
+                    <h3>Creative Design</h3>
+                    <p>Blending aesthetics with functionality to create stunning user experiences.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon yellow">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Building fast, optimized applications that deliver exceptional performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="third-section skills-section" id="skills">
+        <h2>My <span class="highlight">Skills</span></h2>
+        <p class="lead">
+            A comprehensive overview of my technical expertise and proficiency levels across various
+            technologies
+            and tools.
+        </p>
+
+        <div class="section-cont">
+            <div class="skills-grid">
+                <div class="skill" data-skill="js">
+                    <div class="label"><span>JavaScript</span><span>95%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="skill" data-skill="react">
+                    <div class="label"><span>React.js</span><span>85%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="skill" data-skill="node">
+                    <div class="label"><span>Node.js/Express</span><span>85%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="skill" data-skill="java">
+                    <div class="label"><span>Java / Spring Boot</span><span>80%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:80%"></div>
+                    </div>
+                </div>
+                <div class="skill" data-skill="db">
+                    <div class="label"><span>Database </span><span>88%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:88%"></div>
+                    </div>
+                </div>
+                <div class="skill" data-skill="uiux">
+                    <div class="label"><span>UI/UX Design</span><span>90%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:90%"></div>
+                    </div>
+                </div>
+                <div class="skill" data-skill="devops">
+                    <div class="label"><span>DevOps/AWS</span><span>70%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:70%"></div>
+                    </div>
+                </div>
+                <!-- <div class="skill" data-skill="mobile">
+                    <div class="label"><span>Mobile Development</span><span>72%</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width:72%"></div>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="metrics">
+                <div class="metric">
+                    <div class="number">9+</div>
+                    <div class="label">Projects Completed</div>
+                </div>
+                <div class="metric">
+                    <div class="number">1+</div>
+                    <div class="label">Years Experience</div>
+                </div>
+                <div class="metric">
+                    <div class="number">7+</div>
+                    <div class="label">Technologies</div>
+                </div>
+                <div class="metric">
+                    <div class="number">99.99%</div>
+                    <div class="label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth-section b-v-section" id="projects">
+        <video class="background-videos section4bgvideo" src="videos/section4bg.mp4" muted loop></video>
+
+        <h2>My <span class="highlight">Projects</span></h2>
+        <div class="section-cont">
+            <div class="project-cont">
+                <div class="project-cards project1 pointer">
+                    <div class="img"><img src="images/projects/spotify.jpg" alt="spotify" class="project-img"></div>
+                    <div class="project-details">
+                        <div class="project-name">Music Player </div>
+                        <p>A music player build with javascript. features include song searching, playing, changing.
+                        </p>
+                        <div class="lang-buttons"><button>JS</button><button>CSS</button><button>HTML</button>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn-demo"><a href="https://tunezo.netlify.app/"><i
+                                    class="fa fa-external-link-alt"></i>Live Demo</a></button>
+                            <button class="btn-code"> <a href="https://github.com/rajtayade24/tunezo-18"><i
+                                    class="fab fa-github"></i>Code</a></button>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="project-cards project2 pointer">
+                    <div class="img"><img src="images/projects/tradesutra.jpg" alt="tradesutra" class="project-img">
+                    </div>
+                    <div class="project-details">
+                        <div class="project-name">TradeSutra </div>
+                        <p>A responsive trading website with candlestick chart with real-life updates.</p>
+                        <div class="lang-buttons">
+                            <button>Flask</button><button>JS</button><button>CSS</button><button>HTML</button>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn-demo"><a href="https://stock-market-flask-18.onrender.com/"><i
+                                    class="fa fa-external-link-alt"></i>Live Demo</a></button>
+                            <button class="btn-code"> <a
+                                    href="https://github.com/rajtayade24/financial-analyzing"><i
+                                    class="fab fa-github"></i>Code</a></button>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="project-cards project3 pointer">
+                    <div class="img"><img src="images/projects/apple.jpg" alt="apple" class="project-img"></div>
+                    <div class="project-details">
+                        <div class="project-name">Apple Website </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit veniam a,
+                            assumenda
+                            magnam dolorum commodi molestiae, sint </p>
+                        <div class="lang-buttons"><button>JS</button><button>CSS</button><button>HTML</button>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn-demo"><a href="https://a-p-p-l-e.netlify.app"><i
+                                    class="fa fa-external-link-alt"></i>Live Demo</a></button>
+                            <button class="btn-code"> <a href="https://github.com/rajtayade24/apple-clone"><i
+                                    class="fab fa-github"></i>Code</a></button>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="project-cards project4 pointer">
+                    <div class="img"><img src="images/projects/portfolio.jpg" alt="apple" class="project-img"></div>
+                    <div class="project-details">
+                        <div class="project-name">Portfolio Website</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maxime voluptatibus nihil
+                            doloremque, dignissimos molestias! Quis, dicta? Rem </p>
+                        <div class="lang-buttons"><button>JS</button><button>CSS</button><button>HTML</button>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn-demo"><a href="https://raj-portfolio-18.netlify.app/"><i
+                                    class="fa fa-external-link-alt"></i>Live Demo</a></button>
+                            <button class="btn-code"> <a href="https://github.com/rajtayade24/portfolio"><i
+                                    class="fab fa-github"></i>Code</a></button>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="fifth-section" id="contact">
+        <h2>Let's <span class="highlight">Work Together</span></h2>
+        <div class="lead">Ready to start your next project? Let's collaborate and create something amazing
+            together.</div>
+        <div class="section-cont">
+            <div class="fifth-section-content">
+                <div class="info-items-cont">
+                    <h2>Let's Talk</h2>
+                    <p>I'm always interested in hearing about new opportunities, creative projects, and interesting
+                        people.
+                        Whether you have a question or just want to say hi, I'll do my best to get back to you!</p>
+                    <div>
+                        <div class="info-item">
+                            <span class="icon"><i class="fas fa-envelope"></i></span>
+                            <div>
+                                <p class="label">Email</p>
+                                <p class="detail">rajtayade2492006@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <p class="label">Phone</p>
+                                <p class="detail">+91 87674 58908</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <div>
+                                <p class="label">Location</p>
+                                <p class="detail">Pune, Maharashtra</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icons">
+                            <span class="linkedin"><a href="https://www.linkedin.com/in/rajtayade"><i
+                                    class="fa-brands fa-linkedin"></i></a></span>
+                        <span class="facebook"><a href=""><i class="fa-brands fa-facebook"></i></a></span>
+                        <span class="instagram"><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Please give your feedback</h3>
+                    <form id="studentFeedback">
+                        <input type="text" name="name" id="name" placeholder="Your name" required
+                               autocomplete="off">
+
+                        <input type="email" name="email" id="email" placeholder="Your email" required
+                               autocomplete="on">
+
+                        <input type="number" name="mobileNumber" id="mobileNumber" placeholder="Your Mo. No."
+                               autocomplete="off">
+
+                        <input type="text" name="subject" id="subject" placeholder="Subject" autocomplete="off">
+
+                        <textarea rows="5" name="message" id="message" placeholder="Your message"
+                                  autocomplete="off"></textarea>
+
+                        <div class="rate-cont">
+                            <span class="rate">Rate your Experience</span>
+                            <div class="star-rating">
+                                <input type="radio" id="star1" class="rating" name="rating" value="5" />
+                                <label for="star1">★</label>
+
+                                <input type="radio" id="star2" class="rating" name="rating" value="4" />
+                                <label for="star2">★</label>
+
+                                <input type="radio" id="star3" class="rating" name="rating" value="3" />
+                                <label for="star3">★</label>
+
+                                <input type="radio" id="star4" class="rating" name="rating" value="2" />
+                                <label for="star4">★</label>
+
+                                <input type="radio" id="star5" class="rating" name="rating" value="1" />
+                                <label for="star5">★</label>
+                            </div>
+                        </div>
+                        <button class="send-message" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="script/script.js"></script>
+<script src="script/server.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main arrowhead -->
+  <path d="M20 12 L48 32 L20 52 L28 32 Z" fill="white"/>
+  
+  <!-- Comet tail: three tapered streaks -->
+  <path d="M8 12 L16 20" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M8 32 L18 32" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <path d="M8 52 L16 44" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>
