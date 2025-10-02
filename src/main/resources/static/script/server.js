@@ -1,5 +1,3 @@
-const API_URL = "http://localhost:8082/portfolio/student";
-
 document.getElementById("studentFeedback").addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -22,7 +20,7 @@ document.getElementById("studentFeedback").addEventListener("submit", (e) => {
 
   document.getElementById("studentFeedback").reset();
 
-  fetch(API_URL, {
+  fetch("/student", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, email, mobileNumber, subject, message, rating })
