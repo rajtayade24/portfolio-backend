@@ -1,7 +1,4 @@
 let backgroundVideo1 = document.getElementById("section1bgvideo")
-let backgroundVideo4 = document.getElementById("section4bgvideo")
-backgroundVideo1.play();
-backgroundVideo4.play();
 backgroundVideo1.playbackRate = 0.2;
 
 let sectionBackgroundVideos = document.querySelectorAll(".background-videos");
