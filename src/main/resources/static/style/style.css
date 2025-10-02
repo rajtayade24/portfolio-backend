@@ -938,8 +938,6 @@ form .rate-cont {
 }
 
 .profile-container img {
-  width: 250px; /* adjust as needed */
-  border-radius: 16px; /* smooth corners */
   box-shadow: 0px 8px 20px rgba(0, 0, 50, 0.6),
               0px 0px 30px rgba(0, 50, 200, 0.4);
 }
@@ -947,18 +945,15 @@ form .rate-cont {
 
 .about-para {
     max-width: 650px;
-    /* keeps text in readable width */
     color: #e4e7f2;
-    /* soft white text for dark bg */
     font-family: 'Segoe UI', Roboto, sans-serif;
     line-height: 1.8;
     font-size: 1.05rem;
 }
 
 .about-para p {
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
     text-align: justify;
-    /* makes paragraph aligned neatly */
     text-justify: inter-word;
 }
 
@@ -966,17 +961,17 @@ form .rate-cont {
     font-size: 1.15rem;
     font-weight: 500;
     color: #ffffff;
-    /* make intro a bit brighter */
 }
 
 .about-para p::first-letter {
     font-size: 1.6rem;
     font-weight: bold;
     color: #4da6ff;
-    /* accent color for first letter */
 }
 
 .about-para p:hover {
     transition: 0.3s ease-in-out;
     color: #ffffff;
 }
+
+
