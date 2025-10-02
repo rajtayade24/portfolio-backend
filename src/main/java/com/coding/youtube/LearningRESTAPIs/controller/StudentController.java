@@ -20,6 +20,12 @@ public class StudentController {
 
     private final StudentService studentService;
 
+    @PostMapping("/student")
+    public ResponseEntity<StudentDto> createNewStudent(@RequestBody @Valid AddStudentRequestDto addStudentRequestDto) {
+//   HttpStatus.CREATED  ====>>>    201 status code created
+        return ResponseEntity.status(HttpStatus.CREATED).body(studentService.createNewStudent(addStudentRequestDto));
+    }
+
     @GetMapping("/student")
     public ResponseEntity<List<StudentDto>> getStudent() {
 //        return studentService.getAllStudents();
@@ -30,12 +36,6 @@ public class StudentController {
     public ResponseEntity<StudentDto> getStudentDto(@PathVariable Long id) {
 //        return studentService.getStudentById(id);
         return ResponseEntity.ok(studentService.getStudentById(id));
-    }
-
-    @PostMapping("/student")
-    public ResponseEntity<StudentDto> createNewStudent(@RequestBody @Valid AddStudentRequestDto addStudentRequestDto) {
-//   HttpStatus.CREATED  ====>>>    201 status code created
-        return ResponseEntity.status(HttpStatus.CREATED).body(studentService.createNewStudent(addStudentRequestDto));
     }
 
     @PutMapping("/student/{id}")
