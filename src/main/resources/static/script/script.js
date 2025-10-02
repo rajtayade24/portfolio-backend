@@ -77,20 +77,6 @@ window.addEventListener('scroll', () => {
 
 });
 
-// const observer = new IntersectionObserver((entries) => {
-//     entries.forEach(entry => {
-//         if (entry.isIntersecting) {
-//             projectCards.forEach(card => {
-//                 card.style.transform = 'translateX(0)';
-//             });
-//         }
-//     });
-// }, {
-//     root: null,
-//     rootMargin: '0px',
-//     threshold: 0.05
-// });
-
 const projectCards = document.querySelectorAll('.project-cont .project-cards');
 
 const observer = new IntersectionObserver((entries) => {
